@@ -9,7 +9,7 @@ import org.junit.runners.Suite.SuiteClasses;
 	TestCourse.class 
 	})
 
-public class AllTests {
+public class TestSuite {
 	
 
 }
