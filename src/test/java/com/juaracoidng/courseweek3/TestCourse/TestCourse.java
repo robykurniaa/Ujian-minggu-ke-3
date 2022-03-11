@@ -128,7 +128,7 @@ public class TestCourse {
 	@Test
 	@FileParameters("src/test/resources/convert.csv")
 	public void testConvertTemp(double f, double expect) {
-		assertEquals(expect, course.ConvertTemp(f), 0.0);
+		assertEquals(expect, course.ConvertTemp(f), 0.1);
 	}
 	@Test
 	public void testConverTempKolamBukanAngka() {
